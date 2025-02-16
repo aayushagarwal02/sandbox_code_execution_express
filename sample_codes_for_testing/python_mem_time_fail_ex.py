@@ -1,5 +1,6 @@
 arr = [0] * (10**8)  # Allocating too much memory
 print("This should not execute!")
+
 '''
 this should give
 {
@@ -13,5 +14,5 @@ for i in range(10**8):  # No large list allocation
 print("Optimized and runs fine!")
 this times out in 10MB, 5sec. 
 
-changing it to 10**8 runs fine
+changing it to 10**7 runs fine memory and time wise
 '''
