@@ -12,7 +12,6 @@ this should give
 for i in range(10**8):  # No large list allocation
     pass
 print("Optimized and runs fine!")
-this times out in 10MB, 5sec. 
+this above commented code times out in 10MB, 5sec. but passes for 10 sec
 
-changing it to 10**7 runs fine memory and time wise
 '''
